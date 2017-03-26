@@ -28,13 +28,16 @@ public class Main {
             connection = DriverManager.getConnection("jdbc:derby:myDB;create=true");
             Statement stmt = connection.createStatement();
 
-            String str0 = "DROP TABLE CUSTOMER";
-            stmt.execute(str0);
+            String drop0 = "DROP TABLE ROOM";
+            String drop1 = "DROP TABLE DOCTOR";
+            String drop2 = "DROP TABLE CONNECTION";
+            String drop3 = "DROP TABLE FLOOR";
+            //stmt.execute(str0);
 
-            String str1 = "CREATE TABLE CUSTOMER (SALARY int, NAME varchar(255), LOCATION varchar(255), AGE int)";
+            String str1 = "CREATE TABLE ROOM (SALARY int, NAME varchar(255), LOCATION varchar(255), AGE int)";
             stmt.execute(str1);
 
-            String str2 = "INSERT INTO CUSTOMER VALUES (11, 'Jim Bye', 'Buffalo', 34)";
+            String str2 = "INSERT INTO ROOM VALUES (11, 'Jim Bye', 'Buffalo', 34)";
             stmt.execute(str2);
             stmt.execute(str2);
             stmt.execute(str2);

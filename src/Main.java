@@ -32,9 +32,11 @@ public class Main {
             String drop1 = "DROP TABLE DOCTOR";
             String drop2 = "DROP TABLE CONNECTION";
             String drop3 = "DROP TABLE FLOOR";
+            String drop4 = "DROP TABLE BUILDING";
+            String drop5 = "DROP TABLE LOCATION";
             //stmt.execute(str0);
 
-            String str1 = "CREATE TABLE ROOM (SALARY int, NAME varchar(255), LOCATION varchar(255), AGE int)";
+            String create0 = "CREATE TABLE ROOM (roomID CHAR(20) NOT NULL Primary Key)";
             stmt.execute(str1);
 
             String str2 = "INSERT INTO ROOM VALUES (11, 'Jim Bye', 'Buffalo', 34)";

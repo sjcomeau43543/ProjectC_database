@@ -21,12 +21,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="85" lean-forward="false" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
+            <state relative-caret-position="274">
+              <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
               <folding>
-                <marker date="1490557372334" expanded="true" signature="1703:1720" ph=" CREATE statement" />
-                <marker date="1490557372334" expanded="true" signature="1822:1876" ph=" INSERT statement (ROOM)" />
-                <marker date="1490557372334" expanded="true" signature="2004:2026" ph=" SELECT statement (CUSTOMER)" />
+                <marker date="1490557876965" expanded="true" signature="2331:2385" ph=" INSERT statement (ROOM)" />
+                <marker date="1490557876965" expanded="true" signature="2513:2535" ph=" SELECT statement (CUSTOMER)" />
               </folding>
             </state>
           </provider>
@@ -252,12 +251,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="85" lean-forward="false" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
+        <state relative-caret-position="274">
+          <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
           <folding>
-            <marker date="1490557372334" expanded="true" signature="1703:1720" ph=" CREATE statement" />
-            <marker date="1490557372334" expanded="true" signature="1822:1876" ph=" INSERT statement (ROOM)" />
-            <marker date="1490557372334" expanded="true" signature="2004:2026" ph=" SELECT statement (CUSTOMER)" />
+            <marker date="1490557876965" expanded="true" signature="2331:2385" ph=" INSERT statement (ROOM)" />
+            <marker date="1490557876965" expanded="true" signature="2513:2535" ph=" SELECT statement (CUSTOMER)" />
           </folding>
         </state>
       </provider>

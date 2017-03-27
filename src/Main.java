@@ -28,16 +28,26 @@ public class Main {
             connection = DriverManager.getConnection("jdbc:derby:myDB;create=true");
             Statement stmt = connection.createStatement();
 
-            String drop0 = "DROP TABLE ROOM";
-            String drop1 = "DROP TABLE DOCTOR";
-            String drop2 = "DROP TABLE CONNECTION";
-            String drop3 = "DROP TABLE FLOOR";
-            String drop4 = "DROP TABLE BUILDING";
-            String drop5 = "DROP TABLE LOCATION";
+            String droproom = "DROP TABLE ROOM";
+            String dropdoctor = "DROP TABLE DOCTOR";
+            String dropconnection = "DROP TABLE CONNECTION";
+            String dropfloor = "DROP TABLE FLOOR";
+            String dropbuilding = "DROP TABLE BUILDING";
+            String droplocation = "DROP TABLE LOCATION";
             //stmt.execute(str0);
 
-            String create0 = "CREATE TABLE ROOM (roomID CHAR(20) NOT NULL Primary Key)";
-            stmt.execute(str1);
+            //change the lists to be an actual list
+            String createfloor = "CREATE TABLE FLOOR(roomList CHAR(20))";
+            String createroom = "CREATE TABLE ROOM (roomID CHAR(20) NOT NULL Primary Key, floorLoc Floor)";
+            String createbuilding = "CREATE TABLE BUILDING(buildingID CHAR(20) NOT NULL Primary Key, name CHAR(20), floor CHAR(20))";
+            String createlocation = "CREATE TABLE LOCATION()";
+            String createconnection = "CREATE TABLE CONNECTION()";
+            String createdoctor = "CREATE TABLE DOCTOR()";
+
+
+
+
+            //stmt.execute(str1);
 
             String str2 = "INSERT INTO ROOM VALUES (11, 'Jim Bye', 'Buffalo', 34)";
             stmt.execute(str2);
